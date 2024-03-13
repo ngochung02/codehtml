@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THỜI KHÓA BIỂU</title>
+</head>
+<body>
+    <header style="text-align: center">
+        <h1 style="color: rgb(17, 10, 10); margin: 0;">Thời khóa biểu lớp T0908I</h1>
+    </header>
+</body>
+<table border="1" style="margin-left: auto; margin-right: auto;">
+    <tr>
+        <th bgcolor="yellow" style="text-align: center;">Thứ 3</th>
+        <th bgcolor="yellow" style="text-align: center;">Thứ 5</th>
+        <th bgcolor="yellow" style="text-align: center;">Thứ 7</th>
+    </tr>
+    <tr>
+        <td style="text-align: center;">CF - T1, L1</td>
+        <td style="text-align: center;">CF - T2, L2</td>
+        <td style="text-align: center;">CF - T3, L3</td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">CF - T4, L4</td>
+        <td style="text-align: center;">CF - Written Test</td>
+        <td style="text-align: center;">C - T1, L1</td>
+    </tr>
+</table>
+</html>
