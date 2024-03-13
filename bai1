@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký học viên</title>
+    <style>
+        body {
+            background-color: yellow; 
+        }
+        h2 {
+            color: blue; 
+        }
+        header {
+            color:rgb(41, 228, 103);
+        }
+    </style>
+</head>
+<body>
+    <header style="text-align: left; background-color: #4CAF50; padding: 20px;">
+    <h2>Đăng ký học viên</h2>
+    </header>
+    <form action="#" method="post">
+        <label for="hoTen">Họ và tên:</label><br>
+        <input type="text" id="hoTen" name="hoTen" required><br><br>
+        
+        <label for="ngaySinh">Ngày sinh:</label><br>
+        <input type="date" id="ngaySinh" name="ngaySinh" required><br><br>
+        
+        <label>Giới tính:</label><br>
+        <input type="radio" id="nam" name="gioiTinh" value="nam" required>
+        <label for="nam">Nam</label>
+        <input type="radio" id="nu" name="gioiTinh" value="nu" required>
+        <label for="nu">Nữ</label><br><br>
+        
+        <label for="diaChi">Địa chỉ:</label><br>
+        <input id="diaChi" name="diaChi" required></input><br><br>
+        
+        <label for="lopHoc">Lớp học:</label><br>
+        <select id="lopHoc" name="lopHoc" required>
+            <option value="lop1">Lớp 10</option>
+            <option value="lop2">Lớp 11</option>
+            <option value="lop3">Lớp 12</option>
+            
+        </select><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="soDienThoai">Số điện thoại:</label><br>
+        <input type="tel" id="soDienThoai" name="soDienThoai" required><br><br>
+        
+        <input type="submit" value="Đồng ý">
+        <input
